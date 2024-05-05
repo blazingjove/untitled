@@ -14,7 +14,7 @@ N. Write a method that takes the array as an argument and returns this "outlier"
 // TODO after solving notes: need to be more cognizant of variables. look for more ways to simplify problem could have
 //  simplified the problem by only looking at first three values to determine if i was looking for odd or even value.
 
-public class Six {
+public class f {
     static int find(int[] integers) {
         int oddCount = 0;
         int evenCount = 0;

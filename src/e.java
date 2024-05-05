@@ -7,9 +7,8 @@ solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false
 */
 
-//
 
-public class Five {
+public class e {
     public static boolean solution(String str, String ending) {
         int strLength = str.length();
         int endingLength = ending.length();

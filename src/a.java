@@ -8,7 +8,7 @@
 //One.makeNegative(0);  // return 0
 
 // TODO after solving notes -- need to use java methods more I could have used absolute value to simplify problem!
-public class One {
+public class a {
     public static int makeNegative(final int x){
 
         if (x < 0) {

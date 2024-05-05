@@ -11,7 +11,7 @@ Write function bmi that calculates body mass index (bmi = weight / height^2).
 */
 
 
-public class Three {
+public class c {
     public static String bmi(double weight, double height) {
         double bmi = weight/(height*height);
 

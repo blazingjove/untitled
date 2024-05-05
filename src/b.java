@@ -6,7 +6,7 @@
 //name equals owner 	'Hello boss'
 //otherwise 	'Hello guest'
 
-public class Two {
+public class b {
     static String greet(String name, String owner) {
         if (name.equals(owner)){
             return "Hello boss";
