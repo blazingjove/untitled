@@ -11,14 +11,19 @@ Examples:
 */
 
 
-import java.lang.reflect.Array;
-
 public class g {
 
-    public static String[] solution(String s) {
-        int index = (int)Math.ceil(s.length()%2);
+    public static int solution(String s) {
+        // finding the number of pairs in string s and rounding up.
+        int index =  (int) Math.ceil((double) s.length() / 2);
+
+        //generate a empty array with n indexes, n being the number of character pairs in string s + 1.
         String[] splitString = new String[index];
-        String[] yomama = {"a","b"};
-        return yomama;
+
+        //running loop to add two characters to each index in the array, splitString and then adding "_" if required
+
+
+
+        return splitString.length;
     }
 }

@@ -7,6 +7,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(g.solution("abc")));
+        System.out.println(g.solution("112233"));
     }
 }
