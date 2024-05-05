@@ -7,7 +7,7 @@
 //One.makeNegative(-5); // return -5
 //One.makeNegative(0);  // return 0
 
-// TODO after solving notes -- need to use libraries more could have used absolute value to simplify problem more
+// TODO after solving notes -- need to use java methods more I could have used absolute value to simplify problem!
 public class One {
     public static int makeNegative(final int x){
 
