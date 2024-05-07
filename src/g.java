@@ -11,6 +11,8 @@ Examples:
 */
 
 
+import java.util.Arrays;
+
 public class g {
 
     public static int solution(String s) {
@@ -18,13 +20,16 @@ public class g {
         int counter =  (int) Math.ceil((double) s.length() / 2);
         int stringLenght = s.length();
         //generate a empty array with n indexes, n being the number of character pairs in string s + 1.
-
+        int j =0;
         String[] splitString = new String[counter];
 
         for (int i = 0; i < counter; i++) {
-            System.out.println(s.charAt(i));
+                splitString[i]= String.valueOf(s.charAt(j)).concat(String.valueOf(s.charAt(j+1)));
+                System.out.println(j);
+                j = j+2;
         }
-        System.out.println(counter);
+
+        System.out.println(Arrays.toString(splitString));
 
         //running loop to add two characters to each index in the array, splitString and then adding "_" if required
 
