@@ -5,10 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String sentence = "Hey fellow warriors";
-        String dragon[] = sentence.split(" ");
-
-        System.out.println(k.spinWords("Hey dragon 123456"));
-
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println(l.getPeaks(arr));
     }
 }
