@@ -23,10 +23,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class l {
+
     public static String getPeaks(int[] arr) {
         int n = arr.length;
         List<Integer> list = new ArrayList<Integer>();
         List<Integer> loc = new ArrayList<Integer>();
+
+
 
         for(int i=1;i<n-2;i++) {
             if(arr[i]>arr[i-1] && arr[i]>arr[i+1]) {
@@ -34,6 +37,6 @@ public class l {
                 list.add(arr[i]);
             }
         }
-        return 'pos: ${loc}. locaiton';
+        return loc.toString()+" "+list.toString();
     }
 }
